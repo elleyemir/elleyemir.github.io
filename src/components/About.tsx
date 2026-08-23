@@ -75,7 +75,7 @@ export default function About() {
 
           <motion.aside {...reveal(0.1)} className="space-y-5">
             <KnightMotif />
-            <div className="rounded-2xl border border-parchment/[0.1] bg-parchment/[0.025] p-5">
+            {/* <div className="rounded-2xl border border-parchment/[0.1] bg-parchment/[0.025] p-5">
               <p className="eyebrow mb-3">Chess</p>
               <p className="text-sm leading-relaxed text-parchment/[0.65]">{profile.chess.summary}</p>
               <ul className="mt-4 space-y-2">
@@ -86,7 +86,7 @@ export default function About() {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </motion.aside>
         </div>
       </div>
