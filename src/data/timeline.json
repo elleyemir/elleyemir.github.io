@@ -102,6 +102,19 @@
     }
   },
   {
+    "id": "2025-university",
+    "year": 2025,
+    "title": "Computer Science University",
+    "category": "Experience",
+    "shortDescription": "Started my university journey in Computer Science at UET Lahore, Pakistan.",
+    "description": "Started my university journey in Computer Science at UET Lahore, Pakistan. Currently pursuing my degree and actively participating in various university activities.",
+    "icon": "briefcase",
+    "content": {
+      "type": "experience",
+      "duration": "2025-Present"
+    }
+  },
+  {
     "id": "2025-spikofest-contest",
     "year": 2025,
     "title": "Spikofest Programming Contest",
