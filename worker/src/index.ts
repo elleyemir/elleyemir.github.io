@@ -419,7 +419,7 @@ async function generateGeminiResponse(
   config: ProviderConfig,
 ): Promise<string> {
   const response = await fetchProvider(
-    "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent",
+    "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
     {
       method: "POST",
       headers: { "Content-Type": "application/json", "x-goog-api-key": config.apiKey },

@@ -18,8 +18,8 @@ export interface ContactPayload {
 
 /** Documented EmailJS template variables. */
 export interface EmailJsTemplateParams extends Record<string, unknown> {
-  from_name: string;
-  from_email: string;
+  name: string;
+  email: string;
   subject: string;
   message: string;
   to_name: string;
@@ -39,8 +39,8 @@ export function ensureEmailJsInit(): boolean {
 
 export function buildTemplateParams(payload: ContactPayload): EmailJsTemplateParams {
   return {
-    from_name: payload.name,
-    from_email: payload.email,
+    name: payload.name,
+    email: payload.email,
     subject: payload.subject,
     message: payload.message,
     to_name: 'Ali Amir',
