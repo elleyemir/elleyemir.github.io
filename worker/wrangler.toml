@@ -1,0 +1,14 @@
+name = "ali-amir-portfolio-chat"
+main = "src/index.ts"
+compatibility_date = "2025-02-01"
+
+[vars]
+# Non-secret configuration only. Set the actual, exact production origin(s) before deployment.
+AI_PROVIDER = "gemini"
+ALLOWED_ORIGIN = "https://elleyemir.github.io,http://localhost:5173"
+
+# Never put provider keys in this file or in Git. Set them interactively instead:
+#   wrangler secret put GEMINI_API_KEY
+#   wrangler secret put GROQ_API_KEY
+# `ALLOWED_ORIGIN` accepts a comma-separated list. A `*` value is development-only,
+# never production; the Worker echoes a matching request origin rather than sending `*`.

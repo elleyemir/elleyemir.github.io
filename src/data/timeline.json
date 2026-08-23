@@ -1,0 +1,149 @@
+[
+  {
+    "id": "2019-started-coding",
+    "year": 2019,
+    "title": "Started Coding",
+    "category": "Learning",
+    "shortDescription": "Started learning programming independently through YouTube and online resources during the COVID-era learning period.",
+    "description": "Started learning programming independently through YouTube and online resources during the COVID-era learning period.",
+    "icon": "terminal",
+    "content": {
+      "type": "learning"
+    }
+  },
+  {
+    "id": "2021-git-github",
+    "year": 2021,
+    "title": "Git & GitHub",
+    "category": "Development",
+    "shortDescription": "Learned Git and GitHub and created my first GitHub account.",
+    "description": "Learned Git and GitHub and created my first GitHub account.",
+    "icon": "git",
+    "links": [
+      { "label": "GitHub Profile", "url": "https://github.com/ali-amir-code", "kind": "github" }
+    ],
+    "content": {
+      "type": "learning"
+    }
+  },
+  {
+    "id": "2022-first-web-projects",
+    "year": 2022,
+    "title": "First Web Projects",
+    "category": "Projects",
+    "shortDescription": "Built early projects including a Flappy Bird game and a fee management system.",
+    "description": "Built early projects including a Flappy Bird game and a fee management system.",
+    "icon": "gamepad",
+    "links": [
+      { "label": "Flappy Bird Game", "url": "https://github.com/Ali-Amir-code/Flappy-Bird-Game", "kind": "github" },
+      { "label": "Fee Management System", "url": "https://github.com/Ali-Amir-code/Fee-Managment-System", "kind": "github" }
+    ],
+    "content": {
+      "type": "project"
+    }
+  },
+  {
+    "id": "2023-webchat",
+    "year": 2023,
+    "title": "Built WebChat",
+    "category": "Project",
+    "shortDescription": "Built an end-to-end web-based chat application.",
+    "description": "Built an end-to-end web-based chat application.",
+    "icon": "message",
+    "featured": true,
+    "links": [
+      { "label": "View Project", "url": "https://github.com/Ali-Amir-code/WebChat", "kind": "github" }
+    ],
+    "content": {
+      "type": "project"
+    }
+  },
+  {
+    "id": "2023-web-technologies-apis",
+    "year": 2023,
+    "title": "Learned Web Technologies & APIs",
+    "category": "Learning",
+    "shortDescription": "Expanded into web technologies, APIs, and integrating existing technologies into new systems.",
+    "description": "Expanded into web technologies, APIs, and integrating existing technologies into new systems.",
+    "icon": "globe",
+    "content": {
+      "type": "learning"
+    }
+  },
+  {
+    "id": "2024-founded-pixelweave",
+    "year": 2024,
+    "title": "Founded PixelWeave",
+    "category": "Startup",
+    "shortDescription": "Started a software startup named PixelWeave and built multiple projects under it.",
+    "description": "Started a software startup named PixelWeave and built multiple projects under it.",
+    "icon": "rocket",
+    "featured": true,
+    "links": [
+      { "label": "PixelWeave", "url": "https://pixelweave.tech", "kind": "website" }
+    ],
+    "content": {
+      "type": "startup",
+      "company": "PixelWeave",
+      "website": "https://pixelweave.tech"
+    }
+  },
+  {
+    "id": "2025-backend-internship",
+    "year": 2025,
+    "title": "Backend Internship",
+    "category": "Experience",
+    "shortDescription": "Completed a three-month backend development internship and built multiple projects.",
+    "description": "Completed a three-month backend development internship and built multiple projects.",
+    "icon": "briefcase",
+    "content": {
+      "type": "experience",
+      "duration": "Three months"
+    }
+  },
+  {
+    "id": "2025-spikofest-contest",
+    "year": 2025,
+    "title": "Spikofest Programming Contest",
+    "category": "Achievement",
+    "shortDescription": "Achieved top placement in both programming contests at the university event.",
+    "description": "Achieved top placement in both programming contests at the university event.",
+    "icon": "trophy",
+    "featured": true,
+    "content": {
+      "type": "achievement",
+      "event": "Spikofest"
+    }
+  },
+  {
+    "id": "2026-real-business-website",
+    "year": 2026,
+    "title": "Real Business Website",
+    "category": "Real World Project",
+    "shortDescription": "Built a production website for a real organization through PixelWeave.",
+    "description": "Built a production website for a real organization through PixelWeave.",
+    "icon": "building",
+    "featured": true,
+    "links": [
+      { "label": "Visit Website", "url": "https://qazimultiventures.com", "kind": "website" }
+    ],
+    "content": {
+      "type": "project",
+      "status": "live"
+    }
+  },
+  {
+    "id": "2026-real-business-desktop-apps",
+    "year": 2026,
+    "title": "Real Business Desktop Applications",
+    "category": "Real World Project",
+    "shortDescription": "Built multiple desktop applications for real businesses, including Elixis, a pharmacy management system.",
+    "description": "Built multiple desktop applications for real businesses, including Elixis, a pharmacy management system. The production version is closed source, while a partial initial version may be publicly available.",
+    "icon": "monitor",
+    "featured": true,
+    "content": {
+      "type": "project",
+      "status": "closed-source"
+    }
+  }
+]

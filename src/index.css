@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --board: rgba(244, 241, 234, 0.022);
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-ink-950 font-sans text-parchment/[0.8] antialiased;
+    background-image:
+      radial-gradient(900px 500px at 78% -8%, rgba(93, 147, 240, 0.13), transparent 65%),
+      radial-gradient(760px 460px at 8% 6%, rgba(227, 180, 71, 0.09), transparent 62%);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background: rgba(227, 180, 71, 0.28);
+    color: #f4f1ea;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-parchment;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid #e3b447;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Thin, dark scrollbar for the chat transcript and modal bodies */
+  .thin-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(244, 241, 234, 0.18) transparent;
+  }
+  .thin-scroll::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .thin-scroll::-webkit-scrollbar-thumb {
+    background: rgba(244, 241, 234, 0.16);
+    border-radius: 999px;
+  }
+}
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .eyebrow {
+    @apply font-mono text-[0.68rem] uppercase tracking-[0.34em] text-gold-500/[0.85];
+  }
+
+  .glass {
+    @apply border border-parchment/[0.1] bg-parchment/[0.035] backdrop-blur-md;
+  }
+
+  .hairline {
+    @apply h-px w-full bg-hairline;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition-all duration-300 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply btn bg-gold-sheen text-ink-950 shadow-glow hover:-translate-y-0.5 hover:shadow-[0_22px_50px_-22px_rgba(227,180,71,0.55)];
+  }
+
+  .btn-ghost {
+    @apply btn border border-parchment/[0.18] text-parchment/[0.9] hover:-translate-y-0.5 hover:border-gold-500/[0.45] hover:bg-parchment/[0.05] hover:text-parchment;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1.5 rounded-full border px-3 py-1 font-mono text-[0.66rem] uppercase tracking-[0.16em];
+  }
+
+  /* Subtle chessboard texture used behind a few sections */
+  .board-pattern {
+    background-image:
+      linear-gradient(45deg, var(--board) 25%, transparent 25%, transparent 75%, var(--board) 75%),
+      linear-gradient(45deg, var(--board) 25%, transparent 25%, transparent 75%, var(--board) 75%);
+    background-size: 72px 72px;
+    background-position:
+      0 0,
+      36px 36px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
