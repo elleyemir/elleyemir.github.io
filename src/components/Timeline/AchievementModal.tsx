@@ -166,7 +166,7 @@ export default function AchievementModal({ entry, onClose }: AchievementModalPro
       >
         {/* Header */}
         <div className="relative shrink-0 border-b border-parchment/[0.1] bg-gradient-to-br from-gold-500/[0.07] via-transparent to-azure-500/[0.06] px-5 pb-5 pt-5 sm:px-8 sm:pb-6 sm:pt-7">
-          <div className="flex items-start gap-4 pr-12">
+          <div className="flex items-center gap-4 pr-12">
             <span
               className={`mt-0.5 grid h-11 w-11 shrink-0 place-items-center rounded-xl border bg-ink-900 ${style.node}`}
             >

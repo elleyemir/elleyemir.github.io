@@ -19,7 +19,7 @@ const GREETING: ChatBubble = {
   id: 'greeting',
   role: 'assistant',
   content:
-    "Hi — I'm Ali's portfolio assistant. Ask me about his projects, journey, skills or chess interest. I only answer questions about Ali and this site.",
+    "Hi — I'm Ali's portfolio assistant. Ask me about his projects, journey, skills or chess interest.",
 };
 
 let idCounter = 0;

@@ -5,8 +5,16 @@
     "title": "Started Coding",
     "category": "Learning",
     "shortDescription": "Started learning programming independently through YouTube and online resources during the COVID-era learning period.",
-    "description": "Started learning programming independently through YouTube and online resources during the COVID-era learning period.",
+    "description": "Started learning programming independently through YouTube and online resources during the COVID-era learning period. Most of the progress came from short experiments, repeated mistakes, and trying to understand how small pieces of code behaved before I knew the bigger picture.",
     "icon": "terminal",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Developer workspace with code on a monitor",
+        "caption": "A representative view of the kind of environment where the learning started"
+      }
+    ],
     "content": {
       "type": "learning"
     }
@@ -17,10 +25,15 @@
     "title": "Git & GitHub",
     "category": "Development",
     "shortDescription": "Learned Git and GitHub and created my first GitHub account.",
-    "description": "Learned Git and GitHub and created my first GitHub account.",
+    "description": "Learned Git and GitHub and created my first GitHub account. That shift mattered because it turned coding into something I could track, revisit and improve instead of treating every project as a one-off experiment.",
     "icon": "git",
+    
     "links": [
-      { "label": "GitHub Profile", "url": "https://github.com/ali-amir-code", "kind": "github" }
+      {
+        "label": "GitHub Profile",
+        "url": "https://github.com/ali-amir-code",
+        "kind": "github"
+      }
     ],
     "content": {
       "type": "learning"
@@ -32,11 +45,33 @@
     "title": "First Web Projects",
     "category": "Projects",
     "shortDescription": "Built early projects including a Flappy Bird game and a fee management system.",
-    "description": "Built early projects including a Flappy Bird game and a fee management system.",
+    "description": "Built early projects including a Flappy Bird game and a fee management system. These were important because they pushed me beyond tutorials and into building complete small products with interfaces, logic and state that had to work together.",
     "icon": "gamepad",
+    "media": [
+      {
+        "type": "image",
+        "src": "images/timeline/flappy-bird.png",
+        "alt": "Flappy Bird game screenshot",
+        "caption": "One of the earliest complete browser games"
+      },
+      {
+        "type": "image",
+        "src": "images/timeline/feemanagement.png",
+        "alt": "Fee management system screenshot",
+        "caption": "A small utility project that introduced structured data handling"
+      }
+    ],
     "links": [
-      { "label": "Flappy Bird Game", "url": "https://github.com/Ali-Amir-code/Flappy-Bird-Game", "kind": "github" },
-      { "label": "Fee Management System", "url": "https://github.com/Ali-Amir-code/Fee-Managment-System", "kind": "github" }
+      {
+        "label": "Flappy Bird Game",
+        "url": "https://github.com/Ali-Amir-code/Flappy-Bird-Game",
+        "kind": "github"
+      },
+      {
+        "label": "Fee Management System",
+        "url": "https://github.com/Ali-Amir-code/Fee-Managment-System",
+        "kind": "github"
+      }
     ],
     "content": {
       "type": "project"
@@ -48,11 +83,23 @@
     "title": "Built WebChat",
     "category": "Project",
     "shortDescription": "Built an end-to-end web-based chat application.",
-    "description": "Built an end-to-end web-based chat application.",
+    "description": "Built an end-to-end web-based chat application. This was a step up in complexity because it needed a stronger focus on interaction design, persistence and the flow between different parts of a real app instead of just a static demo.",
     "icon": "message",
     "featured": true,
+    "media": [
+      {
+        "type": "image",
+        "src": "images/timeline/webchat.png",
+        "alt": "WebChat application screenshot",
+        "caption": "The chat interface that pushed the work toward a full product feel"
+      }
+    ],
     "links": [
-      { "label": "View Project", "url": "https://github.com/Ali-Amir-code/WebChat", "kind": "github" }
+      {
+        "label": "View Project",
+        "url": "https://github.com/Ali-Amir-code/WebChat",
+        "kind": "github"
+      }
     ],
     "content": {
       "type": "project"
@@ -64,8 +111,16 @@
     "title": "Learned Web Technologies & APIs",
     "category": "Learning",
     "shortDescription": "Expanded into web technologies, APIs, and integrating existing technologies into new systems.",
-    "description": "Expanded into web technologies, APIs, and integrating existing technologies into new systems.",
+    "description": "Expanded into web technologies, APIs, and integrating existing technologies into new systems. At this stage I was learning how to connect features instead of just building isolated pages, which made it easier to think about request/response flows and reusable application structure.",
     "icon": "globe",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Developer planning API integrations",
+        "caption": "A visual stand-in for the shift toward APIs and connected systems"
+      }
+    ],
     "content": {
       "type": "learning"
     }
@@ -76,11 +131,23 @@
     "title": "Founded PixelWeave",
     "category": "Startup",
     "shortDescription": "Started a software startup named PixelWeave and built multiple projects under it.",
-    "description": "Started a software startup named PixelWeave and built multiple projects under it.",
+    "description": "Started a software startup named PixelWeave and built multiple projects under it. This turned the work from personal experiments into a clear delivery vehicle for real client projects, with more attention on packaging, presentation and shipping complete outcomes.",
     "icon": "rocket",
     "featured": true,
+    "media": [
+      {
+        "type": "image",
+        "src": "images/timeline/pixelweave-website.png",
+        "alt": "PixelWeave website screenshot",
+        "caption": "The startup identity that started carrying the client work"
+      }
+    ],
     "links": [
-      { "label": "PixelWeave", "url": "https://pixelweave.tech", "kind": "website" }
+      {
+        "label": "PixelWeave",
+        "url": "https://pixelweave.tech",
+        "kind": "website"
+      }
     ],
     "content": {
       "type": "startup",
@@ -94,11 +161,44 @@
     "title": "Backend Internship",
     "category": "Experience",
     "shortDescription": "Completed a three-month backend development internship and built multiple projects.",
-    "description": "Completed a three-month backend development internship and built multiple projects.",
+    "description": "Completed a three-month backend development internship and built multiple projects. The work focused on backend fundamentals such as APIs, auth flows, file handling and data-heavy interactions, and it helped connect the learning phase to real project delivery.",
     "icon": "briefcase",
+    
+    "links": [
+      {
+        "label": "Blog API",
+        "url": "https://github.com/Ali-Amir-code/t6-blog-api",
+        "kind": "github"
+      },
+      {
+        "label": "File Upload",
+        "url": "https://github.com/Ali-Amir-code/t7-file-upload",
+        "kind": "github"
+      },
+      {
+        "label": "Advanced Search",
+        "url": "https://github.com/Ali-Amir-code/t8-advanced-search",
+        "kind": "github"
+      },
+      {
+        "label": "Token Auth",
+        "url": "https://github.com/Ali-Amir-code/t9-token-auth",
+        "kind": "github"
+      },
+      {
+        "label": "Gemini API",
+        "url": "https://github.com/Ali-Amir-code/gemini-api",
+        "kind": "github"
+      }
+    ],
     "content": {
       "type": "experience",
-      "duration": "Three months"
+      "duration": "Three months",
+      "highlights": [
+        "Built backend-focused features across several small projects.",
+        "Practiced API structure, authentication and file handling.",
+        "Used public repositories to keep the work visible and easy to review."
+      ]
     }
   },
   {
@@ -107,8 +207,16 @@
     "title": "Computer Science University",
     "category": "Experience",
     "shortDescription": "Started my university journey in Computer Science at UET Lahore, Pakistan.",
-    "description": "Started my university journey in Computer Science at UET Lahore, Pakistan. Currently pursuing my degree and actively participating in various university activities.",
+    "description": "Started my university journey in Computer Science at UET Lahore, Pakistan. I am currently pursuing my degree while staying active in university life and using the coursework to strengthen the foundations behind the projects I build outside class.",
     "icon": "briefcase",
+    "media": [
+      {
+        "type": "image",
+        "src": "images/timeline/uet.png",
+        "alt": "UET Lahore campus or university screenshot",
+        "caption": "The beginning of the formal CS path"
+      }
+    ],
     "content": {
       "type": "experience",
       "duration": "2025-Present"
@@ -120,12 +228,31 @@
     "title": "Spikofest Programming Contest",
     "category": "Achievement",
     "shortDescription": "Achieved top placement in both programming contests at the university event.",
-    "description": "Achieved top placement in both programming contests at the university event.",
+    "description": "Achieved top placement in both programming contests at the university event. The result was especially meaningful because it came from a live competition setting where speed, correctness and calm problem-solving all mattered at the same time.",
     "icon": "trophy",
     "featured": true,
+    "media": [
+      {
+        "type": "image",
+        "src": "images/timeline/spikofest-certificate-receiving.jpeg",
+        "alt": "Receiving the Spikofest certificate",
+        "caption": "The moment the placement was recognized"
+      },
+      {
+        "type": "image",
+        "src": "images/timeline/spikofest-certificates.jpeg",
+        "alt": "Spikofest certificates",
+        "caption": "Contest certificates from the university event"
+      }
+    ],
     "content": {
       "type": "achievement",
-      "event": "Spikofest"
+      "event": "Spikofest",
+      "highlights": [
+        "Placed highly in both programming contests.",
+        "Validated competitive problem-solving under time pressure.",
+        "Added a milestone that sits alongside the project work."
+      ]
     }
   },
   {
@@ -134,11 +261,16 @@
     "title": "Real Business Website",
     "category": "Real World Project",
     "shortDescription": "Built a production website for a real organization through PixelWeave.",
-    "description": "Built a production website for a real organization through PixelWeave.",
+    "description": "Built a production website for a real organization through PixelWeave. The project pushed the work into a more production-oriented setting where polish, reliability and the ability to present a business properly all mattered.",
     "icon": "building",
     "featured": true,
+    
     "links": [
-      { "label": "Visit Website", "url": "https://qazimultiventures.com", "kind": "website" }
+      {
+        "label": "Visit Website",
+        "url": "https://qazimultiventures.com",
+        "kind": "website"
+      }
     ],
     "content": {
       "type": "project",
@@ -151,11 +283,60 @@
     "title": "Real Business Desktop Applications",
     "category": "Real World Project",
     "shortDescription": "Built multiple desktop applications for real businesses, including Elixis, a pharmacy management system.",
-    "description": "Built multiple desktop applications for real businesses, including Elixis, a pharmacy management system. The production version is closed source, while a partial initial version may be publicly available.",
+    "description": "Built multiple desktop applications for real businesses, including Elixis, a pharmacy management system. The production version is closed source, while a partial initial version may be publicly available. The work covers real operational screens such as inventory, sales and reporting, which is the kind of software that has to stay useful day after day.",
     "icon": "monitor",
     "featured": true,
+    "media": [
+      {
+        "type": "image",
+        "src": "images/timeline/elixis-dashboard.png",
+        "alt": "Elixis dashboard",
+        "caption": "The main dashboard for one of the desktop applications"
+      },
+      {
+        "type": "image",
+        "src": "images/timeline/elixis-add-medicine.png",
+        "alt": "Elixis add medicine screen",
+        "caption": "Data entry flow for pharmacy operations"
+      },
+      {
+        "type": "image",
+        "src": "images/timeline/elixis-sales.png",
+        "alt": "Elixis sales screen",
+        "caption": "Sales workflow screen from the desktop app"
+      },
+      {
+        "type": "image",
+        "src": "images/timeline/elixis-reports-overview.png",
+        "alt": "Elixis reports overview",
+        "caption": "Operational reporting and overview views"
+      },
+      {
+        "type": "image",
+        "src": "images/timeline/wholesalepos-dashboard.png",
+        "alt": "Wholesale POS dashboard screenshot",
+        "caption": "One of the kinds of admin surfaces that mirror backend-heavy application work"
+      },
+      {
+        "type": "image",
+        "src": "images/timeline/wholesalepos-inventory.png",
+        "alt": "Wholesale POS inventory screen",
+        "caption": "Inventory and data management views from the same product family"
+      },
+      {
+        "type": "image",
+        "src": "images/timeline/wholesalepos-reports.png",
+        "alt": "Wholesale POS reports screen",
+        "caption": "Reporting and operational workflows that fit the backend internship period"
+      }
+    ],
     "content": {
       "type": "project",
+      "highlights": [
+        "Built software for real businesses instead of demo-only projects.",
+        "Covered everyday workflows such as inventory, sales and reporting.",
+        "Kept the production version closed source while retaining a public preview where possible."
+      ],
       "status": "closed-source"
     }
   }
